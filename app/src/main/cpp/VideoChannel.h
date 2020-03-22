@@ -26,6 +26,10 @@ public:
 
     void stop();
 
+    void video_decode();
+
+    void video_player();
+
 private:
     pthread_t pid_video_decode;
 };
